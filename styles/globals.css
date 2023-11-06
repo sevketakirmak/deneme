@@ -35,6 +35,6 @@ input::-webkit-date-and-time-value {
 
 @supports (-webkit-touch-callout: none) {
   input:after{
-    content: "1123";
+    content: "\eb27";
   }
 }
