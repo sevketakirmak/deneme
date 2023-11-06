@@ -32,6 +32,6 @@ input {
 input::-webkit-date-and-time-value {
   text-align: left;
 }
-input::-webkit-date-and-time-value:after{
-  content: "a";
+input div::after{
+  content: "1123";
 }
