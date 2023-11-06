@@ -16,7 +16,7 @@
   }
 }
 
-input, input::-webkit-date-and-time-value {
+input{
   outline: none;
   text-align: left;
   border-bottom: 1px solid #eeeeee;
@@ -25,4 +25,7 @@ input, input::-webkit-date-and-time-value {
   font-size: 16px;
   min-width: 100%;
   background-color: white !important;
+}
+input[type='date']:-webkit-date-and-time-value:empty:after {
+  content: attr(placeholder);
 }
