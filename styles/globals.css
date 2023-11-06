@@ -32,6 +32,9 @@ input {
 input::-webkit-date-and-time-value {
   text-align: left;
 }
-input div::after{
-  content: "1123";
+
+@supports (-webkit-touch-callout: none) {
+  input:after{
+    content: "1123";
+  }
 }
