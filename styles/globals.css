@@ -24,4 +24,5 @@ input, input::-webkit-date-and-time-value {
   margin: 0;
   font-size: 16px;
   min-width: 100%;
+  background-color: white !important;
 }

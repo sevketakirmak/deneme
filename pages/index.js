@@ -7,7 +7,7 @@ export default function Home() {
     <main
       className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
     >
-      <input type="date" className="appearance-none" />
+      <input type="date" className="appearance-none" placeholder="doğum tarihi" />
     </main>
   );
 }
