@@ -16,7 +16,7 @@
   }
 }
 
-input {
+input, input::-webkit-date-and-time-value {
   outline: none;
   text-align: left;
   border-bottom: 1px solid #eeeeee;
